@@ -10,7 +10,7 @@ public class DateFormatTest {
 
 	public static void main(String[] args) throws ParseException {
 		
-		System.out.println(hello);
+		System.out.println("Test commit");
 		
 		String format="yyyy-MM-dd'T'HH:mm:ssXXX";
 	    
