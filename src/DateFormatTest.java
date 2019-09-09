@@ -9,6 +9,9 @@ import org.joda.time.DateTime;
 public class DateFormatTest {
 
 	public static void main(String[] args) throws ParseException {
+		
+		System.out.println("Test commit");
+		
 		String format="yyyy-MM-dd'T'HH:mm:ssXXX";
 	    
 	    String time="2017-05-15T20:02:08-0400";
