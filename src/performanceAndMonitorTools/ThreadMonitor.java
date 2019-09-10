@@ -276,4 +276,24 @@ public class ThreadMonitor {
 		return cpuPercentage;
 	}
 
+	public long getDuration() {
+		return duration;
+	}
+
+	public void setDuration(long duration) {
+		this.duration = duration;
+	}
+
+	public void setOldThreadIDToCPUUsageMap(Map<Long, Long> oldMap) {
+		this.oldThreadIDtoCPUUsageMap.clear();
+		this.oldThreadIDtoCPUUsageMap.putAll(oldMap);
+	}
+	public void setNewThreadIDToCPUUsageMap(Map<Long, Long> newMap) {
+		this.currentThreadIDtoCPUUsageMap.clear();
+		this.currentThreadIDtoCPUUsageMap.putAll(newMap);
+	}
+	
+	
+	
+
 }
