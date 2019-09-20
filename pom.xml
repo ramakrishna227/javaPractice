@@ -32,6 +32,19 @@
 			<artifactId>oshi-core</artifactId>
 			<version>3.12.1</version>
 		</dependency>
+		<!-- mail related dependencies: mail.jar and activation.jar -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.activation</groupId>
+			<artifactId>activation</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
 
 	</dependencies>
 </project>
